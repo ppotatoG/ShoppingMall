@@ -28,8 +28,10 @@
         li {
             margin-left: 20px;
             position: relative;
+            min-width: 80px;
             &:first-child{margin-left: 0;}
             a{
+                text-align: center;
                 padding: 10px;
                 &:hover{
                     font-weight: 600;
